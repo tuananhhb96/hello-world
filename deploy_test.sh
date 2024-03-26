@@ -7,7 +7,7 @@ export PROJECT_DIR=$PWD
 
 # Develop here
 IMAGE_NAME=$PROJECT_NAME
-REPO_SERVER=harbor.signetcenter.systems/uat-signet
+REPO_SERVER=harbor.*******fill_in_here*******
 REPO_IMAGE_TAG=$REPO_SERVER/${IMAGE_NAME}:$VERSION
 
 echo " **** Deploy image ${PROJECT_NAME}: This is deploy for BE and FE here ! **** "
